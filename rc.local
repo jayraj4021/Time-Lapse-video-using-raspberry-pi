@@ -17,6 +17,6 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-#python3 /home/pi/camera.py &
+python3 /home/pi/camera.py &
 
 exit 0
